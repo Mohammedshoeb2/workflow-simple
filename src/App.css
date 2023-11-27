@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#one{
+  color: red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.App{
+  height: 100vh;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.card{
+ border-radius: 5px;
+  gap: 20px;
+  width: 625px;
+  height: 450px;
+  padding: 104px 82px;
+  background: var(--primary-1, #E6F7FF);
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+  flex-direction: column;
+}
+.login-bar{
+  background: rgba(245, 245, 245, 1);
+  width: 384px;
+  height: 46px;
+  padding: 10px;
+  margin-bottom: 22px;
+  
+}
+.card h2{
+  font-family: Segoe UI;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+
+
+
+}
+.card-text{
+  font-family: Segoe UI;
+font-size: 32px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: -0.75px;
+text-align: left;
+
+}
+.cbx{
+gap: 3px;
+
+}
+.two{
+  gap: 30px;
+}
+.input-main{
+  flex-direction: column;
+  gap: 28px;
+}
+.input{
+  width: 360px;
+  height: 40px;
+  padding: 8px 12px;
+  text-align: center;
+  /* padding: 10px 110px; */
+  border: 1px solid #1890FF;
+  
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+
+
+  
+}
+#btn1{
+  background: transparent;
+  border: transparent;
+}
+.btn{
+  width: 114px;
+  height: 40px;
+  border: transparent;
+  background-color: #1890FF;
   color: white;
+  margin-top: 22px;
 }
+.new{
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.third{
+  color: #1890FF;
+  border-bottom:3px solid #1890FF;
+}
+#second{
+  color: #1890FF;
+}
+.login{
+  width: 384px;
+height: 284px;
+/* top: 281px;
+left: 898px; */
+justify-content: space-between;
+display: flex;
+flex-direction: column;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.two a{
+  text-decoration: none;
+  color: black;
 }
+ 
